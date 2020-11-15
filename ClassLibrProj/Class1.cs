@@ -7,5 +7,10 @@ namespace ClassLibrProj
         public int MyProperty { get; set; }
         public int asdkjalskdj2 { get; set; }
 
+        public string GetString()
+        {
+            return "New string";
+        }
+
     }
 }
